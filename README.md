@@ -32,12 +32,19 @@ console crawl. Requires rxvt-unicode and DejaVu fonts.
 
 ![Screenshot 1](s1.png)
 
-# irssi #crawl bot parser
+# crawl bots
 
 The best source for information are the crawl bots, located at
-`#crawl` on `irc.freenode.net`.
+`##crawl` on `irc.freenode.net`.
 
-[crawl-botmsg.pl]( http://voyager.lupomesky.cz/crawl/irssi-colorizer/)
+## irssi
+
+[crawl-botmsg.pl](http://voyager.lupomesky.cz/crawl/irssi-colorizer/)
 is an irssi plugin to add color highlighting and formatting to the
-crawl bots. With some minor changes to prevent it crashing irssi on
+crawl bots. I made some minor changes to prevent it crashing irssi on
 buffer playback.
+
+## hexchat
+
+[softignore](https://github.com/jsravn/softignore) plugin can be used
+to dim bot messages.
